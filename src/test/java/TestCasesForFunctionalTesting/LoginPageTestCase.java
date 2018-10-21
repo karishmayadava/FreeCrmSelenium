@@ -48,4 +48,6 @@ public class LoginPageTestCase extends TestBase{
 	public void tearDown(){
 		driver.quit();
 	}
+
+	
 }

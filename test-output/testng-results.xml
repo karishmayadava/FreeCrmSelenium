@@ -1,157 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32579" started-at="2018-10-06T09:08:11Z" finished-at="2018-10-06T09:08:44Z">
+  <suite name="Default suite" duration-ms="62213" started-at="2018-10-14T10:09:05Z" finished-at="2018-10-14T10:10:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32579" started-at="2018-10-06T09:08:11Z" finished-at="2018-10-06T09:08:44Z">
+    <test name="Default test" duration-ms="62213" started-at="2018-10-14T10:09:05Z" finished-at="2018-10-14T10:10:07Z">
       <class name="TestCasesForFunctionalTesting.LoginPageTestCase">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCasesForFunctionalTesting.LoginPageTestCase@7d9d1a19]" name="setUp" is-config="true" duration-ms="13041" started-at="2018-10-06T09:08:11Z" finished-at="2018-10-06T09:08:24Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCasesForFunctionalTesting.LoginPageTestCase@7d9d1a19]" name="setUp" is-config="true" duration-ms="24895" started-at="2018-10-14T10:09:05Z" finished-at="2018-10-14T10:09:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="validateLogin()[pri:1, instance:TestCasesForFunctionalTesting.LoginPageTestCase@7d9d1a19]" name="validateLogin" duration-ms="751" started-at="2018-10-06T09:08:24Z" finished-at="2018-10-06T09:08:25Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1182, 117). Other element would receive the click: <div id="preloader" style="opacity: 0.148225;">...</div>
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'KARISHMA-PC', ip: '192.168.1.123', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\Karishma\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
-Session ID: 17ca8b7444dcfe3693bfc9be99c3756f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1182, 117). Other element would receive the click: <div id="preloader" style="opacity: 0.148225;">...</div>
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'KARISHMA-PC', ip: '192.168.1.123', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\Karishma\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
-Session ID: 17ca8b7444dcfe3693bfc9be99c3756f
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at crm.FreeCRM.qa.pages.LoginPage.login(LoginPage.java:42)
-at TestCasesForFunctionalTesting.LoginPageTestCase.validateLogin(LoginPageTestCase.java:34)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="validateLogin()[pri:1, instance:TestCasesForFunctionalTesting.LoginPageTestCase@7d9d1a19]" name="validateLogin" duration-ms="4126" started-at="2018-10-14T10:09:30Z" finished-at="2018-10-14T10:09:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCasesForFunctionalTesting.LoginPageTestCase@7d9d1a19]" name="tearDown" is-config="true" duration-ms="722" started-at="2018-10-06T09:08:25Z" finished-at="2018-10-06T09:08:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCasesForFunctionalTesting.LoginPageTestCase@7d9d1a19]" name="tearDown" is-config="true" duration-ms="828" started-at="2018-10-14T10:09:34Z" finished-at="2018-10-14T10:09:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCasesForFunctionalTesting.LoginPageTestCase@7d9d1a19]" name="setUp" is-config="true" duration-ms="9251" started-at="2018-10-06T09:08:26Z" finished-at="2018-10-06T09:08:35Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCasesForFunctionalTesting.LoginPageTestCase@7d9d1a19]" name="setUp" is-config="true" duration-ms="8769" started-at="2018-10-14T10:09:35Z" finished-at="2018-10-14T10:09:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="validateLinks()[pri:2, instance:TestCasesForFunctionalTesting.LoginPageTestCase@7d9d1a19]" name="validateLinks" duration-ms="7578" started-at="2018-10-06T09:08:35Z" finished-at="2018-10-06T09:08:42Z">
-          <exception class="java.net.UnknownHostException">
-            <message>
-              <![CDATA[help.freecrm.com]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: help.freecrm.com
-at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-at java.net.PlainSocketImpl.connect(Unknown Source)
-at java.net.SocksSocketImpl.connect(Unknown Source)
-at java.net.Socket.connect(Unknown Source)
-at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
-at sun.security.ssl.BaseSSLSocketImpl.connect(Unknown Source)
-at sun.net.NetworkClient.doConnect(Unknown Source)
-at sun.net.www.http.HttpClient.openServer(Unknown Source)
-at sun.net.www.http.HttpClient.openServer(Unknown Source)
-at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
-at sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
-at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
-at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
-at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
-at crm.FreeCRM.qa.pages.LoginPage.isLinkBroken(LoginPage.java:69)
-at TestCasesForFunctionalTesting.LoginPageTestCase.validateLinks(LoginPageTestCase.java:41)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+        <test-method status="PASS" signature="validateLinks()[pri:2, instance:TestCasesForFunctionalTesting.LoginPageTestCase@7d9d1a19]" name="validateLinks" duration-ms="22251" started-at="2018-10-14T10:09:44Z" finished-at="2018-10-14T10:10:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLinks -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCasesForFunctionalTesting.LoginPageTestCase@7d9d1a19]" name="tearDown" is-config="true" duration-ms="1153" started-at="2018-10-06T09:08:42Z" finished-at="2018-10-06T09:08:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCasesForFunctionalTesting.LoginPageTestCase@7d9d1a19]" name="tearDown" is-config="true" duration-ms="1292" started-at="2018-10-14T10:10:06Z" finished-at="2018-10-14T10:10:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

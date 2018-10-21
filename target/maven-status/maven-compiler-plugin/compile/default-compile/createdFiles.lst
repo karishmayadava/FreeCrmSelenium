@@ -1,0 +1,5 @@
+crm\FreeCRM\qa\base\TestBase.class
+crm\FreeCRM\qa\pages\LoginPage.class
+crm\FreeCRM\qa\pages\Contacts.class
+crm\FreeCRM\qa\util\TestUtil.class
+crm\FreeCRM\qa\pages\HomePage.class
